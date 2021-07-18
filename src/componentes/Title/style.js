@@ -10,6 +10,7 @@ textTitle: {
     color: "#2eb2ff",
     fontSize: 24,
     fontWeight:"bold",
+    marginTop: 50,
 }
 });
 
