@@ -2,15 +2,19 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
 boxTitle: {
-    alignItems: "center",
-    justifyContent: "center",
-    padding:10,
+    backgroundColor:"purple",
+    width:"100%",
+    marginBottom: 10,
+
 },
 textTitle: {
+    textAlign:"center",
     color: "#2eb2ff",
     fontSize: 24,
     fontWeight:"bold",
-    marginTop: 50,
+    marginTop: 20,
+    marginBottom: 20,
+
 }
 });
 
