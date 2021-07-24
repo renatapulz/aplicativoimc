@@ -1,50 +1,61 @@
  import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-formContext: {
-//     width: "100%",
-//     height: "100%",
-//     bottom: 0, 
-//     alignItems:"center",
-//     marginTop: 20,
-backgroundColor:"orange",
- }
-// form: {
-//     width: "100%",
-//     height:"auto",
-//     marginTop: 20,
-//     padding: 10, 
 
-// },
-// formLabel: {
-//     color: "#000000",
-//     fontSize: 18,
-//     paddingLeft: 20,
+    titleContext:{
+        textAlign: "center",
+        paddingTop: 5,
+        fontSize: 15,
+        fontWeight: "bold",
+        }, 
 
-// },
-// input: {
-//     width: "90%",
-//     borderRadius: 50,
-//     backgroundColor: "#f6f6f6",
-//     height: 40,
-//     margin: 12,
-//     paddingLeft: 10,
-// },
-// textButtonCalculator: {
-//     fontSize: 20,
-//     color: "#ffffff",
-// },
-// ButtonCalculator: {
-//     backgroundColor: "#2eb2ff",
-//     borderRadius: 50,
-//     alignItems: "center",
-//     justifyContent: "center",
-//     width: "90%",
-//     paddingTop: 14,
-//     paddingBottom: 14,
-//     marginLeft: 12,
-//     marginTop: 30,
-// }
- });
+
+    formContext: {
+        bottom: 0, 
+        paddingTop: 15,
+        backgroundColor:"orange",
+        justifyContent: "center",
+    },
+    
+    form: {
+        marginTop: 5,
+        flexDirection: "row",
+        marginLeft: 10,
+
+    },
+    formLabel: {
+        color: "#000000",
+        fontSize: 18,
+        marginTop: 12,
+
+    },
+    input: {
+        width: 100,
+        borderRadius: 50,
+        backgroundColor: "#f6f6f6",
+        height: 25,
+        margin: 11,
+        paddingLeft: 10,
+    },
+    textoBotaoCalc: {
+        fontSize: 14,
+        color: "#ffffff",
+    },
+    botaoCalc: {
+        backgroundColor: "#2eb2ff",
+        borderRadius: 50,
+        height: 30,
+        alignItems: "center",
+        justifyContent: "center",
+        width: 140,
+        marginLeft: 12,
+        marginTop: 5,
+        marginBottom:20,
+    },
+
+    espacobotao:{
+        alignItems:"center",
+    }
+    });
 
  export default styles

@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
 Campo: {
-    paddingHorizontal: 20,
+    paddingHorizontal:20,
     width:"100%",
     
 },

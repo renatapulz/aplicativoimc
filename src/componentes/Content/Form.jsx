@@ -32,15 +32,20 @@ export default function Form(){
 
     return(
         <View style={styles.formContext}>
+            <View>
+                <Text style={styles.titleContext}>Calcule seu IMC:</Text>
+            </View>
             <View style={styles.form}>
                 <Text style={styles.formLabel}>Altura</Text>
                 <TextInput style={styles.input} onChangeText={setHeight} value={height} placeholder="Ex: 1.60" keyboardType="numbers-and-punctuation"/>
                 <Text style={styles.formLabel}>Peso</Text>
                 <TextInput style={styles.input} onChangeText={setWeight} value={weight}  placeholder="Ex: 55.450" keyboardType="numbers-and-punctuation"/>
-                <TouchableOpacity style={styles.ButtonCalculator} onPress={() =>{
+            </View>
+            <View style={styles.espacobotao} >    
+                <TouchableOpacity style={styles.botaoCalc} onPress={() =>{
                     validationImc()
                 } }>
-                    <Text style={styles.textButtonCalculator}>{textButton}</Text>
+                    <Text style={styles.textoBotaoCalc}>{textButton}</Text>
                 </TouchableOpacity>
             </View>
             <ResultImc messageResultImc={messageImc} resultImc={imc} />
