@@ -21,6 +21,7 @@ autor:{
 conteudo:{
     marginBottom:10,
     padding: 10,
+    fontSize:16,
 },
 
 buttom: {
@@ -34,7 +35,7 @@ buttom: {
 
 textbuttom:{
     color: "white",
-    fontSize: 10,
+    fontSize: 13,
 }
 
 });
