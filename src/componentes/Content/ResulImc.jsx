@@ -6,8 +6,8 @@ import styles from "./estilos/styleResultImc"
 export default function ResultImc(props){
     return(
         <View style={styles.ResultImc}>
-            <Text style={styles.information}>{props.messageResultImc}</Text>
-            <Text style={styles.numberImc}>{props.resultImc}</Text>
+            <Text style={styles.info}>{props.messageResultImc}</Text>
+            <Text style={styles.imc}>{props.resultImc}</Text>
         </View>
     )
 }

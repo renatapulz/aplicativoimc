@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         width: 140,
         marginLeft: 12,
         marginTop: 5,
-        marginBottom:20,
+        marginBottom:10,
     },
 
     espacobotao:{
