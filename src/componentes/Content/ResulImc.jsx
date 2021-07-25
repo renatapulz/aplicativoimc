@@ -12,7 +12,7 @@ export default function ResultImc(props) {
       </View>  
       {/* implementado para aparecer as msgs: */}
       <View style={styles.ResultImc2}>
-        <Text>
+        <Text style={styles.textoResultImc2}>
           {props.message}
         </Text>
       </View>
