@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
         color: "#13293d",
         fontSize: 18,
         marginTop: 12,
+        marginLeft:5,
 
     },
     input: {
@@ -35,11 +36,13 @@ const styles = StyleSheet.create({
         backgroundColor: "#f6f6f6",
         height: 25,
         margin: 11,
-        paddingLeft: 10,
+        paddingLeft: 8,
+        
     },
     textoBotaoCalc: {
         fontSize: 14,
         color: "#e8f1f2",
+        fontWeight: "bold",
     },
     botaoCalc: {
         backgroundColor: "#1b98e0",
@@ -47,11 +50,12 @@ const styles = StyleSheet.create({
         height: 30,
         alignItems: "center",
         justifyContent: "center",
-        width: 140,
+        width: 160,
         marginLeft: 12,
         marginTop: 5,
         marginBottom:10,
         fontSize: 14,
+       
     },
 
     espacobotao:{

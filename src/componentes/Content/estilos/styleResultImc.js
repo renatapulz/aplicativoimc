@@ -2,17 +2,22 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     ResultImc: {
-        borderRadius: 50,
-        alignSelf:"center",
+        backgroundColor:"#1b98e0",
+        height: 55,
+        justifyContent:"center",
+    },
+
+    ResultImc2: {
         marginBottom: 20,
         backgroundColor:"#1b98e0",
+        height: 55,
+        justifyContent:"center",
     },
 
     imc: {
         fontSize: 25,
         color: "#e8f1f2",
         fontWeight: "bold",
-        width: 200,
         textAlign: "center", 
     },
 
@@ -20,7 +25,6 @@ const styles = StyleSheet.create({
         fontSize:14,
         color: "#e8f1f2",
         fontWeight: "bold",
-        width: 200,
         textAlign: "center",
         marginTop: 5,
     }
