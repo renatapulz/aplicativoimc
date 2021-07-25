@@ -2,29 +2,41 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
 viewprinc: {
-    flexDirection:"row",
+    flexDirection:"column",
     alignItems: "center",
     justifyContent: "center",
     padding:10,
-    backgroundColor:"blue",
+    backgroundColor:"#247ba0",
 },
 
 textocampo:{
-    color: "white",
-    fontSize: 12,
-    textAlign: "justify",
-    width: "60%",
-
-
-
+    color: "#e8f1f2",
+    fontSize: 14,
 },
 
 
 imgm: {
-    width:100,
-    height:100,
-    marginLeft: 20,
+    width:270,
+    height:150,
+    marginVertical: 10,
+},
+
+titulo: {
+    color: "#e8f1f2",
+    fontSize: 15,
+    marginBottom:5,
+    fontWeight: "bold",
+
+},
+
+texto:{
+    flexDirection: "column",
+    alignItems:"center", 
+    marginHorizontal: 10,
+    marginBottom: 10,
+    fontSize: 14,
 }
+
 });
 
 export default styles

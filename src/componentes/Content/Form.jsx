@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, Touchable} from "react-native"
 import ResultImc from "./ResulImc"
 import styles from "./estilos/styleImc"
 
-
+//usado hooks para a fazer o cálculo do IMC
 export default function Form(){
 
     const [height, setHeight]= useState(null)

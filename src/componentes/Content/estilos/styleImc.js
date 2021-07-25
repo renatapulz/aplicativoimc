@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     formContext: {
         bottom: 0, 
         paddingTop: 15,
-        backgroundColor:"orange",
+        backgroundColor:"#e8f1f2",
         justifyContent: "center",
     },
     
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
 
     },
     formLabel: {
-        color: "#000000",
+        color: "#13293d",
         fontSize: 18,
         marginTop: 12,
 
@@ -39,10 +39,10 @@ const styles = StyleSheet.create({
     },
     textoBotaoCalc: {
         fontSize: 14,
-        color: "#ffffff",
+        color: "#e8f1f2",
     },
     botaoCalc: {
-        backgroundColor: "#2eb2ff",
+        backgroundColor: "#1b98e0",
         borderRadius: 50,
         height: 30,
         alignItems: "center",
@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
         marginLeft: 12,
         marginTop: 5,
         marginBottom:10,
+        fontSize: 14,
     },
 
     espacobotao:{

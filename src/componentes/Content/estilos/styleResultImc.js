@@ -5,12 +5,12 @@ const styles = StyleSheet.create({
         borderRadius: 50,
         alignSelf:"center",
         marginBottom: 20,
-        backgroundColor:"pink",
+        backgroundColor:"#1b98e0",
     },
 
     imc: {
         fontSize: 25,
-        color: "#2eb2ff",
+        color: "#e8f1f2",
         fontWeight: "bold",
         width: 200,
         textAlign: "center", 
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 
     info: {
         fontSize:14,
-        color: "#2eb2ff",
+        color: "#e8f1f2",
         fontWeight: "bold",
         width: 200,
         textAlign: "center",

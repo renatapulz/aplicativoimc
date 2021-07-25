@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
 viewfooter: {
-    backgroundColor:"purple",
+    backgroundColor:"#006494",
     width:"100%",
     marginBottom: 10,
 
@@ -10,7 +10,7 @@ viewfooter: {
 textfooter: {
     textAlign:"center",
     padding: 20,
-    color: "white",
+    color: "#e8f1f2",
 
 }
 
