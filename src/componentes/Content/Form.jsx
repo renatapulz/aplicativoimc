@@ -12,7 +12,7 @@ export default function Form(){
   const [resultMsg, setResultMsg]= useState(null)
   const [textButton, setTextButton]= useState("Calcular");
 
-  // Para imprimir o resultado pedido:
+  // Para imprimir o resultado:
   function imcCalculator() {
     const imc = (weight/(height*height)).toFixed(2)
     const imcMessage = validarIMC(imc)
@@ -32,8 +32,6 @@ export default function Form(){
     else {
       return "Acima do peso. Propenso a fadiga, sofrer com má circulação e varizes."
     }
-
-    return ''
   }
 
   function validationImc(){
